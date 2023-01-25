@@ -21,10 +21,11 @@ header {
     grid-area: top
 }
 
-h1 { 
+h1 {
     font-size: 18pt;
 }
 
-li, p + p {
+li,
+p+p {
     margin-top: 1em;
 }

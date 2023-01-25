@@ -1,0 +1,12 @@
+.lessons li {
+    font-weight: bold;
+}
+
+.lessons li span {
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.lessons li span:not(:empty)::before {
+    content: '* ';
+}
