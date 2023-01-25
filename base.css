@@ -1,0 +1,30 @@
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 14pt;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1em;
+    grid-template-areas: "top-left top top-right" "left middle right"
+}
+
+main {
+    grid-area: middle
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    grid-area: top
+}
+
+h1 { 
+    font-size: 18pt;
+}
+
+li, p + p {
+    margin-top: 1em;
+}
