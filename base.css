@@ -5,10 +5,16 @@ body {
 
 .layout {
     display: grid;
-    grid-template-columns: 150px auto 150px;
+    grid-template-columns: 10px auto 10px;
     grid-template-rows: auto 1fr;
     grid-gap: 1em;
     grid-template-areas: "top-left top top-right" "left middle right"
+}
+
+@media screen and (min-width: 900px) {
+    .layout {
+        grid-template-columns: 150px auto 150px;  
+    }
 }
 
 main {
