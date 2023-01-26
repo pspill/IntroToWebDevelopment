@@ -1,27 +1,27 @@
 {
-  "name": "static",
+  "name": "intro-to-html-css-js",
   "version": "1.0.0",
-  "description": "This is a static template with no bundling",
+  "description": "Introduction to HTML, CSS, and JavaScript",
   "main": "index.html",
   "scripts": {
     "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "build": "echo This is a static template, no work to do."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/pspill/IntroToWebDevelopment.git"
   },
   "keywords": [
     "static",
     "template",
     "codesandbox"
   ],
-  "author": "Ives van Hoorne",
+  "author": "Peter Spillman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/pspill/IntroToWebDevelopment/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "homepage": "https://github.com/pspill/IntroToWebDevelopment",
   "devDependencies": {
     "serve": "^11.2.0"
   }
